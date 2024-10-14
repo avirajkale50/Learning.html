@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: #fff;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <!-- 
+    1.In action we are include url where the form data should go
+    2.Method is of two types get and post
+    Post send the data in encrypted format
+    Get send the data in without encryption where the is visible in url
+    3.In forms input elements are there
+    -->
+
+    <form action="" method="GET" accept-charset="utf-16" autocomplete="on" enctype="multipart/form-data">
+        <!-- autocomplete and enctype are attribute /read the doc -->
+        <!-- accept charset is to define the charset we are accepting -->
+        <!-- using label is a good practice and in the for attribute we can put the id of the input field so when we press on label input field get highlight -->
+        <label for="fullname">Your Name</label>
+        <input type="text" name="" id="fullname" placeholder="Enter your name">
+        <br>
+        <label for="fathername">Father Name</label>
+        <input type="text" name="" id="fathername" placeholder="Enter your name">
+        <br>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>

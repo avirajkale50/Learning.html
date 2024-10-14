@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <!-- There are 22 or 23 input elements in the html -->
+    <form action="" method="GET" accept-charset="utf-16" autocomplete="on" enctype="multipart/form-data">
+      
+        <label for="fullname">Your Name</label>
+        <input type="text" name="" id="fullname" placeholder="Enter your name">
+        <br>
+        <!-- <input type="week" name="" id=""> -->
+        <select name="editors" id="">
+            <option value="vscode">vscode</option>
+            <option value="eclipse">ecllipse</option>
+            <option value="sublime">sublime-text</option>
+        </select>
+
+
+        <!-- Both are same but this is not generally use -->
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="vscode">vscode</option>
+            <option value="eclipse">ecllipse</option>
+            <option value="sublime">sublime-text</option>
+        </datalist>
+
+        <!-- this is unique form which use to send the token -->
+        <input type="hidden" name="">
+
+        
+
+
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
